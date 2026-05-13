@@ -1,0 +1,43 @@
+/**
+ * 校园二手交易小程序 - app.json
+ */
+{
+  "pages": [
+    "pages/index/index",
+    "pages/goods/goods",
+    "pages/publish/publish",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "navigationBarTitleText": "校园二手集市",
+    "navigationBarBackgroundColor": "#4A90D9",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f5f5f5"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#4A90D9",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_active.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "images/add.png",
+        "selectedIconPath": "images/add_active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine_active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
